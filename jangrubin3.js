@@ -54,6 +54,45 @@ this.content = width;
 this.content = height;
 this.content = backgroundColor;
   }
- 
+ set content(classValue) {
+  if(typeof value === "string") {
+    this.content = classValue;
+    console.log(this.content)
+  } else {
+    console.log("문자열만 받습니다")
+  }
+ }
+ set style(classValue) {
+  if(typeof value === "string") {
+    this.style = classValue;
+    console.log(this.style)
+  } else {
+    console.log("문자열만 받습니다")
+  }
+ }
+ set width(classValue) {
+  if(typeof value === "string") {
+    this.width = classValue;
+    console.log(this.width)
+  } else {
+    console.log("문자열만 받습니다")
+  }
+ }
+ set height(classValue) {
+  if(typeof value === "string") {
+    this.height = classValue;
+    console.log(this.height)
+  } else {
+    console.log("문자열만 받습니다")
+  }
+ }
+ set backgroundColor(classValue) {
+  if(typeof value === "string") {
+    this.backgroundColor = classValue;
+    console.log(this.backgroundColor)
+  } else {
+    console.log("문자열만 받습니다")
+  }
+ }
 }
 
