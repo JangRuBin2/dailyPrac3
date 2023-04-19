@@ -47,7 +47,13 @@ element.innerHTML = exampleOne(basicData, fromJsonData);
 // 생성자함수, 클래스를 작성한다
 // setter 기능을 활용하여 인스턴스의 값들은 모두 "문자열"만 들어가도록 안정성을 확보한다
 class ExampleTwo {
-  constructor() {
-
+  constructor(content, style, width, height, backgroundColor) {
+this.content = content;
+this.content = style;
+this.content = width;
+this.content = height;
+this.content = backgroundColor;
   }
+ 
 }
+
