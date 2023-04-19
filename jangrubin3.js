@@ -32,8 +32,16 @@ let fromJsonData = {
     }
   }
 }
+// 문자열 가공 함수
 function exampleOne(basicData, fromJsonData) {
   let value = "";
+  // 헤더에 클래스 
+  basicData.header = new ExampleTwo(fromJsonData.header.content,
+    fromJsonData.header.style.width,
+    fromJsonData.header.style.height,
+    fromJsonData.header.style.backgroundColor)
+  // basicData.main = new ExampleTwo()
+  // basicData.footer = new ExampleTwo()
   // 아래의 호출부를 참고하여, 지연변수 value에
   // 적정한 문자열 데이터로 객체를 가공하는 코드를 작성한다
   return value;
