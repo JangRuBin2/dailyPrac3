@@ -32,22 +32,28 @@ let fromJsonData = {
     }
   }
 }
+
 function exampleOne(basicData, fromJsonData) {
   let value = "";
   // 아래의 호출부를 참고하여, 지연변수 value에
-  // 적정한 문자열 데이터로 객체를 가공하는 코드를 작성한다
+  // 적절한 문자열 데이터로 객체를 가공하는 코드를 작성한다
+  // if(basicData)
+
   return value;
 }
-
 // 특정 HTML 요소에 값을 넣는 것을 가정한다.
 const element = "";
+// examOne는 호출할 때  엘리먼트의 innerHTML을 
 element.innerHTML = exampleOne(basicData, fromJsonData);
 
 // 위의 fromJsonData와 같은 객체나 JSON 데이터를 생성하기 위한
 // 생성자함수, 클래스를 작성한다
 // setter 기능을 활용하여 인스턴스의 값들은 모두 "문자열"만 들어가도록 안정성을 확보한다
 class ExampleTwo {
-  constructor() {
-
+  constructor(header,main,footer) {
+    this.header = header;
+    this.main = main;
+    this.footer = footer;
   }
 }
+
