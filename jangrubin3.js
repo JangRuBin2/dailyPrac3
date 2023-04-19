@@ -44,6 +44,8 @@ function exampleOne(basicData, fromJsonData) {
   // basicData.footer = new ExampleTwo()
   // 아래의 호출부를 참고하여, 지연변수 value에
   // 적정한 문자열 데이터로 객체를 가공하는 코드를 작성한다
+  value = `
+  `
   return value;
 }
 
